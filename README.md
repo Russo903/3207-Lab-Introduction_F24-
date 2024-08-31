@@ -1,6 +1,12 @@
 # 3207-Lab-Introduction_F24
-This program contains two c files. Compile like this 
 
-$ gcc print_random.c random.c -o "program name"
+## Overview
 
-This should print a random 7 letter string that is different everytime you run it because it is seeded by the time.
+This repository contains a C program consisting of two source files. The program generates a random 7-letter string, which changes every time it is executed due to time-based seeding.
+
+## Compilation
+
+To compile the program, use the following command:
+
+```bash
+gcc print_random.c random.c -o program_name
